@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBuddy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Braah+One&family=Kalnia+Glaze:wght@100..700&family=Maname&family=Young+Serif&display=swap" rel="stylesheet">
+
+</head>
+<style>
+   .top-visited-destinations h2{
+    font-family: "Braah One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   }
+</style>
+<body>
+   <!-- HEADER -->
+   <header>
+    <div class="header-container">
+        <div class="logo">
+            <h1>TravelBuddy</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">Deals</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- HERO SECTION -->
+ 
+<section class="hero">
+    <img src="hero image.png" alt="Hero Image" class="hero-image">
+    <div class="hero-text">
+    <h1>Explore the World with TravelBuddy!</h1>
+    <h2>Plan, Book, and Experience Unforgettable Journeys.</h2>
+    <button>Start Panning</button>
+    </div>
+</section>
+
+<!-- SEARCH BAR  -->
+<Section class="search-bar">
+    <input type="text" placeholder="Destination">
+    <input type="date" placeholder="Check-in Date">
+    <input type="date" placeholder="Check-out Date">
+    <button>Search</button>
+</Section>
+
+<!-- FEATURED DESTINATIONS -->
+ <section class="featured-destinations">
+    <h2>Popular Destinations</h2>
+    <div class="destination-grid"> 
+
+        <!-- DESTINATION 1 -->
+         <div class="destination">
+            <img src="Destination Egypt.png" alt="Egypt">
+            <h3>Egypt</h3>
+            <p>
+                One of the most popular tourist destinations in the world has to be the Pyramids of Giza. <br>
+                This place is among the surviving wonders of the world, which calls for numerous tourist footfalls. 
+                Located at the west of the Nile River, the pyramids are believed to have served for the Pharos of Egypt,
+                the fourth Egyptian dynasty, as tombs. Holding several historical mysteries, this is a must-visit place 
+                in Egypt.
+                Egypt is a land of timeless beauty and awe-inspiring wonders. Known for its rich history and ancient
+                treasures, it captivates visitors with the grandeur of the Pyramids of Giza, the enigmatic Sphinx, and 
+                the sprawling temples of Luxor and Karnak. The majestic Nile River, winding through the heart of the 
+                country, offers breathtaking views and vibrant life along its banks. Beyond its historical marvels, 
+                Egypt's diverse landscapes include golden deserts, lush oases, and serene beaches along the Red.
+                <!-- Sea, creating a stunning contrast and a paradise for explorers and travelers. From the bustling streets
+                 of Cairo to the tranquil shores of Sharm El Sheikh, Egypt blends a deep cultural heritage with natural 
+                 splendor, making it a destination of endless fascination and beauty. -->
+            </p>
+        </div>
+
+        <!-- DESTINATION 2 -->
+         <div class="destination">
+            <img src="Destination Switzerland.png" alt="Switzerland">
+            <h3>Switzerland</h3>
+            <p>Switzerland is a country blessed with an abundance of natural beauty. The pristine lakes, towering mountains, and lush green valleys make it a haven for nature lovers. <br>
+                Switzerland is renowned across the world for its chocolate and cheeses named after regions or Alpine valleys. The country comprises 26 states offering a wide range of 
+                culinary specialties with a multitude of influences. <br>                
+                Switzerland's Gotthard tunnel is the longest in the world – measuring 57km in length, located 2.3km under the Alps, it is 7km longer than the Channel tunnel between 
+                England and France. It took 17 years to complete and, with a total cost of some EUR 11, it's also the world's most expensive tunnel. It cuts 45 minutes off travelling 
+                between Zurich and Lugano and boosts the Rhine-Alp corridor that stretches from Rotterdam in the Netherlands, crosses Germany and connects the port of Genoa in Italy. 
+            </p>
+        </div>
+
+        <!-- DESTINATION 3 -->
+
+        <div class="destination">
+            <img src="Destination Israel.png" alt="Israel">
+            <h3>Israel</h3>
+            <p>
+                Israel is one of the world’s hottest tourist destinations. Each year, millions of travelers flock to the holy land from all over the world. <br>
+                Some come to enjoy the country’s breathtaking natural scenery, others marvel at the incredible and well-preserved historical sites, while some <br>
+                 visit Israel to immerse themselves in the local culture and partake in the annual Jewish festivals and rituals. <br>
+
+               As such, there is no “best time to visit Israel” as it depends on the purpose of your visit. That said, there are times during the year when it is less <br>
+              crowded and airfares are cheaper. Below, we’ve outlined the best times to visit Israel based on the most common reasons why tourists travel to the Holy Land.
+            </p>
+        </div>
+
+        <!-- DESTINATION 4 -->
+         
+        <div class="destination">
+            <img src="Destination Italy.png" alt="Italy">
+            <h3>Italy</h3>
+            <p>
+                In the late afternoon, the small, medieval town of Vernazza, on the Italian Riviera, is as perfect as Italy gets. <br>
+                With the daytrippers gone,the scene is impeccable, a Hollywood filmset, rolling every gorgeous, romantic Italian 
+                cliche into one. Up in the hills, winegrowers tend to their vines. In the piazza, flat-capped farmers, swept into 
+                corners by the last rays of sun, gather to talk and smoke. <br>
+
+                In late 2011, the view from my seat on the seafront would have been very different: more Apocalypse Now than La Dolce Vita. On 25 October a flash <br>
+                rainstorm emptied itself over this little Ligurian coastal community, causing the main river to break its banks and rediscover its natural course, 
+                straight through the middle of town. Raging from the hills that rise almost vertically above the town, it brought with it a landslide of mud, vines 
+                and boulders that powered through every house and business along the main street. <br>
+
+        </div>
+    </div>
+</section>
+
+<section class="top-visited-destinations">
+    <h2>TOP 3 VISITED DESTINATIONS</h2>
+    <div class="top-destinations-grid" id="top-destinations-grid">
+        
+       <!-- TOP DESTINATION 1 -->
+        <div class="top-destination">
+            <img src="Paris.jpg" alt="Paris">
+            <h3>Paris</h3>
+            <p>Paris, France's capital, is a major European city and a global center for art, fashion, and culture. <br>
+                Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine.
+            </p>
+            <button onclick="viewDestination('Paris', this)">View More</button>
+            <div class="tooltip" id="tooltip-Paris"></div>
+        </div>
+
+        <!-- TOP DESTINATION 2 -->
+
+        <div class="top-destination">
+            <img src="tokyo.jpg" alt="Tokyo">
+            <h3>Tokyo</h3>
+            <p>Tokyo, Japan’s busy capital, mixes the ultramodern and the traditional, from neon-lit skyscrapers to 
+               historic temples. The opulent Meiji Shinto Shrine is known for its towering gate and surrounding woods.</p>
+               <button onclick="viewDestination('Tokyo', this)">View More</button>
+               <div class="tooltip" id="tooltip-Tokyo"></div>
+            </div>
+
+            <!-- TOP DESTINATION 3 -->
+
+            <div class="top-destination">
+                <img src="NewYork.jpeg" alt="New York">
+                <h3>New York</h3>
+                <p>New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. <br>
+                    At its core is Manhattan, a densely populated borough that’s among the world’s major commercial, 
+                    financial and cultural centers.
+                </p>
+                <button onclick="viewDestination('NewYork', this)">View More</button>
+                <div class="tooltip" id="tooltip-NewYork"></div>
+            </div>
+        </div>
+</section>
+
+
+
+<!-- TRAVEL TIPS -->
+
+<section class="travel-tips">
+    <h2>Travel Tips</h2>
+    <div class="tip-container">
+        <!-- Tip 1 -->
+        <div class="tip">
+            <i class="fas fa-passport"></i> 
+            <h3>Check Your Passport</h3>
+            <p>Ensure your passport is up-to-date and has at least six months of validity before traveling abroad.</p>
+        </div>
+        <!-- Tip 2 -->
+        <div class="tip">
+            <i class="fas fa-suitcase-rolling"></i>
+            <h3>Pack Smart</h3>
+            <p>Pack only what you need and consider the weather and culture of your destination. Keep essentials in your carry-on.</p>
+        </div>
+        <!-- Tip 3 -->
+        <div class="tip">
+            <i class="fas fa-plane-departure"></i>
+            <h3>Book Early</h3>
+            <p>Book flights and accommodations in advance to get the best deals and avoid last-minute hassles.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Newsletter Signup -->
+ <Section class="newsletter">
+    <h2>Get the Best Travel Deals and Tips</h2>
+    <form id="newsletter-form">
+        <input  id="email" type="email" placeholder="Your email address">
+        <button type="submit">Susbcribe</button>
+    </form>
+</Section>
+
+<!-- FOOTER -->
+
+<footer>
+    <p>&copy; 2024 TravelBuddy. All rights reserved.</p>
+    <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Contacts</a></li>
+    </ul>
+</footer>
+
+<!-- Add JavaScript for Fetch API -->
+<script>
+    // Fetch and display destinations
+    async function fetchDestinations() {
+        const response = await fetch('http://localhost:8080/api/destinations/getDestination');
+        const destinations = await response.json();
+        displayDestinations(destinations);
+        console.log(destinations)
+    }
+
+    // Display destinations
+    function displayDestinations(destinations) {
+        const grid = document.getElementById('destination-grid');
+        grid.innerHTML = '';
+        destinations.forEach(destination => {
+            const item = document.createElement('div');
+            item.classList.add('destination');
+            item.innerHTML = `
+                <img src="${destination.imageUrl}" alt="${destination.name}">
+                <h3>${destination.name}</h3>
+                <p>${destination.description}</p>
+            `;
+            grid.appendChild(item);
+        });
+    }
+
+    // Search destinations (example functionality)
+    function searchDestinations() {
+        const destination = document.getElementById('destination').value;
+        const checkin = document.getElementById('checkin').value;
+        const checkout = document.getElementById('checkout').value;
+        
+        // You can modify this to filter/search from your backend
+        console.log(`Search for: ${destination}, Check-in: ${checkin}, Check-out: ${checkout}`);
+    }
+
+    // Initial fetch
+    document.addEventListener('DOMContentLoaded', fetchDestinations);
+
+    // NEWSLETTER SUSBCRIBE
+    
+    document.getElementById('newsletter-form').addEventListener('submit', async function(event) {
+        event.preventDefault(); // Prevent the default form submission
+
+        const emailInput = document.getElementById('email');
+        const email = emailInput.value;
+
+        try {
+            const response = await fetch('http://localhost:8080/api/newsletter/add', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({email:email})
+            });
+
+            if (response.ok) {
+                alert('Thank you for subscribing!');
+                emailInput.value = ''; // Clear the input field
+            } else {
+                alert('Failed to subscribe. Please try again.');
+            }
+        } catch (error) {
+            console.error('Error:', error);
+            alert('An error occurred. Please try again.');
+        }
+    });
+
+
+// ---------------------------TOP 3 VISITED DESTINATIONS--------------------------------------------------
+
+async function viewDestination(destinationName, buttonElement) {
+    try {
+        // Fetch data from backend
+        const response = await fetch(`http://localhost:8080/api/destinations/${destinationName}`);
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        const destination = await response.json();
+        console.log(destination.name);
+
+        // Get the tooltip element
+        const tooltip = document.getElementById(`tooltip-${destination.name}`);
+        if (tooltip.style.display === 'block') {
+            tooltip.style.display = 'none';
+        } else {
+            // Update tooltip content
+            tooltip.innerHTML = `<strong>Destination:</strong> ${destination.name} <br> <strong>Description:</strong> ${destination.description}`;
+
+            // tooltip.innerHTML = `
+            //     <strong>Destination:</strong>
+            //     <span>${destination.name}</span>
+            //     <div class="description">
+            //         <strong>Description:</strong>
+            //         <span>${destination.description}</span>
+            //     </div>
+            // `;
+
+            // Display and position the tooltip
+            tooltip.style.display = 'block';
+            tooltip.style.position = 'absolute';
+            // tooltip.style.top = `${buttonElement.getBoundingClientRect().bottom + window.scrollY}px`;
+            // tooltip.style.left = `${buttonElement.getBoundingClientRect().left}px`;
+        }
+    } catch (error) {
+        console.error('There was a problem with the fetch operation:', error);
+    }
+}
+</script>
+</body>
+</html>
